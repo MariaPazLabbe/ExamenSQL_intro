@@ -2,11 +2,11 @@
 - Primero ingresare a postgres
 psql -U postgres
 - Creamos la base de datos:
-CREATE DATABASE prueba_final_mariapaz_labbe_789;
+CREATE DATABASE examen_mariapaz_labbe_007;
 
 - conectamos la base de dato:
 
-\c prueba_final_mariapaz_labbe_789;
+\c examen_mariapaz_labbe_007;
 
 Comencemos con el desafío:
 
@@ -133,9 +133,9 @@ INSERT INTO preguntas (pregunta, respuesta_correcta) VALUES ('¿Qué planeta es 
 --ploblamiento tabla respuestas
 INSERT INTO respuestas (respuesta, usuario_id, pregunta_id ) VALUES('60 minutos',3,1);
 INSERT INTO respuestas (respuesta, usuario_id, pregunta_id ) VALUES('60 minutos',4,1);
-INSERT INTO respuestas (respuesta, usuario_id, pregunta_id ) VALUES('Tiene 8 patas',1,3);
-INSERT INTO respuestas (respuesta, usuario_id, pregunta_id ) VALUES('Martes',2,2);
-INSERT INTO respuestas (respuesta, usuario_id, pregunta_id ) VALUES('Venus',5,2);
+INSERT INTO respuestas (respuesta, usuario_id, pregunta_id ) VALUES('Tiene 8 patas',1,2);
+INSERT INTO respuestas (respuesta, usuario_id, pregunta_id ) VALUES('error',2,2);
+INSERT INTO respuestas (respuesta, usuario_id, pregunta_id ) VALUES('nada',5,2);
 
 
 6. Cuenta la cantidad de respuestas correctas totales por usuario (independiente de la
